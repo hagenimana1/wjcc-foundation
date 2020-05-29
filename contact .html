@@ -1,0 +1,36 @@
+<html>
+<head></head>
+
+    <body>
+        <a href="contactpage.php"> CONTACT FORM</a>
+        <p id="THEONESTE"></p>
+    
+        <script>
+            var person = prompt("please enter your name");
+            document.getElementById("THEONESTE").innerHTML = "Hello " + person + "! Welcome to my website";
+        </script>
+        <!-- Start of HubSpot Embed Code -->
+<!-- <pt" id="hs-script-loader" async defer src="//js.hs-scripts.com/7371273.js"></script> -->
+<!-- End of HubSpot Embed Codescript type="text/javascri -->
+        <!-------------Contact Form---------------------- -->
+        <section>
+            <form action="Contact_Confirm.php" method="post">
+            Name:<br>
+            <input type="text" name="name">
+            <br>
+            Phone:<br>
+            <input type="text"name="phone">
+            <br>
+            Reason:<br>
+            <input type="text"name="Reason">
+            <br>
+            Message:<br>
+            <textarea name="message" row =10 col =32> </textarea>
+            <br><br>
+            E-mail:<br>
+            <input type="text"name="email">
+            <br>
+            </form> 
+        </section>
+    </body>
+</html>
